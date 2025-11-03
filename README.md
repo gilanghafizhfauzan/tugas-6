@@ -51,5 +51,15 @@ public class PenjumlahanMatriks {
 
         input.close();
     }
-}
-m
+}Potongan kode ini berfungsi untuk **menjumlahkan dua matriks** berukuran sama.
+
+1. Pengguna memasukkan **jumlah baris dan kolom** matriks.
+2. Program membuat tiga matriks: `matriksA`, `matriksB`, dan `hasil`.
+3. Pengguna mengisi elemen-elemen matriks A dan B melalui input.
+4. Program menjumlahkan setiap elemen yang posisinya sama:
+   [
+   hasil[i][j] = matriksA[i][j] + matriksB[i][j]
+   ]
+5. Hasil penjumlahan ditampilkan dalam bentuk matriks di layar.
+
+
